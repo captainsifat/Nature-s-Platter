@@ -4,11 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's Platter</title>
+
+    <!-- TAILWIND + DAISY -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+
+<!-- TAILWIND  -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+<!-- STYLE.CSS connect -->
+<link rel="stylesheet" href="style.css">
+  <!-- LOGO ICON -->
 <link rel="icon" type="image/x-icon" href="/images/icon (2).ico">
+
+<!-- GOOGLE ICON LINK -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+
 </head>
 <body>
+<!-- NAV BAR -->
+<nav class="flex justify-between items-center mt-3 mx-10">
+    <img src="images/logo-header.png" alt="">
+     
+        <ul class="flex justify-between gap-5 list-none">
+            <li>Product</li>
+            <li>Services</li>
+            <li>Contact us</li>
+       
+        </ul>
+        
+    <div class="flex justify-between items-center gap-4 nav-icon-button ">
+        <div>
+        <i class="material-icons">search</i>
+        <i class="material-icons">add_shopping_cart</i>
+        </div>
+        <div>
+        <button class="border-solid border-2 border-green-500 px-8 py-2 rounded-lg">Login</button>
+        <button class="bg-green-500 text-white px-8 py-3 rounded-lg">Register</button>
+    </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
