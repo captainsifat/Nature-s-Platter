@@ -15,3 +15,49 @@
 .poppins {
   font-family: "Poppins", serif;
 }
+.fa-facebook{
+
+  color: #3B5998;
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+}
+
+.fa-linkedin {
+
+ 
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+}
+.fa-youtube{
+ 
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+}
+
+ul li {
+  background: 
+    conic-gradient(rgb(175, 247, 185) 0 0)
+    bottom/100% 0% no-repeat;
+  transition: .2s;
+}
+ul li:is(:hover,.active) {
+  background-size: 100% 100%;
+  transition: .2s .2s;
+}
+ul:has(li:hover) li.active:not(:hover) {
+  background-size: 100% 0%;
+  transition: .2s;
+}
+
+/* ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-inline: .2em;
+  display: block;
+} */
